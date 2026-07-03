@@ -488,6 +488,7 @@ img { max-width: 100%; display: block; }
   .featured-shop { grid-template-columns: 1fr; }
   .featured-img { min-height: 260px; }
   .scroll-cue { opacity: 0; pointer-events: none; }
+  .shop-card{ filter: grayscale(0%); transform: scale(1.02);}
 }
 
 @media (max-width: 720px) {
@@ -513,4 +514,5 @@ img { max-width: 100%; display: block; }
   .map-wrap { height: 340px; }
   .hero { min-height: 100vh; }
   .scroll-cue { opacity: 0; pointer-events: none; }
+  .shop-card{ filter: grayscale(0%); transform: scale(1.02); }
 }
